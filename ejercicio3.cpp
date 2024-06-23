@@ -9,9 +9,15 @@ int factorial(int);
 //algoritmo proncipal
 int main(){
     float n, sum;
-    cout<<"Ingrese un numero a operar: ";cin>>n;
-    sum =suma(n);
-    cout<<"La sumatoria es de: "<<sum<<endl;
+    char cn;
+    do{
+        system("cls");
+        cout<<"Ingrese un numero a operar: ";cin>>n;
+        sum =suma(n);
+        cout<<"La sumatoria es de: "<<sum<<endl;
+        //implementacion de mas operaciones
+        cout<<"Desea probar con mas numeros? s/n: ";cin>>cn;
+    }while(cn=='s');
     return 0;
 }
 
