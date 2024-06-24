@@ -21,6 +21,6 @@ int main(){
         cout<<"Son pesi"<<endl;
     }
     cout<<"¿Comprobar mas numeros?s/n: ";cin>>cont;
-    }while(cont=='si');
+    }while(cont=='s');
     return 0;
 }
